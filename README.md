@@ -44,6 +44,7 @@ shop.checkout('AA') # => 100
 shop.checkout('ABCD') # => 115
 shop.checkout('AAA') # => 130
 shop.checkout('AAAAAA') # => 260
+```
 
 Flow 
 -------
