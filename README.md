@@ -22,6 +22,7 @@ Our price table and offers:
 | C    | 20    |                |
 | D    | 15    |                |
 +------+-------+----------------+
+```
 
 Notes:
  - For any illegal input (non capitals) simply return -1
