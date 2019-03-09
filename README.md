@@ -71,6 +71,9 @@ Process
 
 #Began with feature test to give an overarching goal for my domain and then followed with unit tests 
 
+ First attempt 
+ [video](https://youtu.be/8xqHsNS24Ck)
+
 
 
 To do 
