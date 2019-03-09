@@ -3,7 +3,7 @@ require 'shop'
 RSpec.describe Shop do
     let(:shop) { Shop.new }
 
-    describe '#intialize' do
+    describe '#initialize' do
         it 'contains an inventory' do 
             expect(shop.inventory).to eq({'A' => 50, 'B' => 30 , 'C' => 20 , 'D' => 15 })
         end
@@ -22,11 +22,10 @@ RSpec.describe Shop do
             end 
         end
         context 'checkout invalid items' do 
-            it 'returns -1 for an invalid item' do 
+            it 'returns -1 for an integer invalid item' do 
                 expect(shop.checkout(18)).to eq(-1)
-            end
-            it 'returns -1 for an invalid item' do 
                 expect(shop.checkout('aBN')).to eq(-1)
+                expect(shop.checkout('-aBN')).to eq(-1)
             end
         end
     end

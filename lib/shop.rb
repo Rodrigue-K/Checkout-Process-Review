@@ -12,8 +12,10 @@ class Shop
                 total += @inventory[item]
             end
             total
-        else item.class == Integer || item != item.upcase
+        else
             -1 
         end
       end
-    end 
+
+
+    end
