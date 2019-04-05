@@ -17,5 +17,6 @@ class Shop
         end
       end
 
-
-    end
+      private
+    
+end
