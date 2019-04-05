@@ -15,7 +15,5 @@ class Shop
     else
       -1
     end
-    end
-
-  private
+  end
 end

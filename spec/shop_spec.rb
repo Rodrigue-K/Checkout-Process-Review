@@ -1,6 +1,5 @@
 require 'shop'
-
-RSpec.describe Shop do
+describe Shop do
   let(:shop) { Shop.new }
 
   describe '#initialize' do
