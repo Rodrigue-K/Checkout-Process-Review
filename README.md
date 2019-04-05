@@ -22,6 +22,7 @@ Our price table and offers:
 | C    | 20    |                |
 | D    | 15    |                |
 +------+-------+----------------+
+```
 
 Notes:
  - For any illegal input (non capitals) simply return -1
@@ -43,6 +44,7 @@ shop.checkout('AA') # => 100
 shop.checkout('ABCD') # => 115
 shop.checkout('AAA') # => 130
 shop.checkout('AAAAAA') # => 260
+```
 
 Flow 
 -------
@@ -68,6 +70,9 @@ Process
 #Using that flow I could then define the messages in my domain. 
 
 #Began with feature test to give an overarching goal for my domain and then followed with unit tests 
+
+ First attempt(without special offer)
+ [video](https://youtu.be/8xqHsNS24Ck)
 
 
 
